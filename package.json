@@ -1,0 +1,19 @@
+{
+  "name": "mysql2minimal",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "push": "drizzle-kit push:mysql"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "drizzle-kit": "^0.19.13"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.28.6",
+    "mysql2": "^3.6.1"
+  }
+}
